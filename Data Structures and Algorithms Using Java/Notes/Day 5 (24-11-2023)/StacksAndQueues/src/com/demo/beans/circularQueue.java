@@ -24,7 +24,7 @@ public class circularQueue {
 		if(front==0 && rear==size-1) {
 			return true;
 		}
-		if(front==rear+1) {
+		if(front==rear+1) {    //should be front==(rear+1)%size
 			return true;
 		}
 		return false;

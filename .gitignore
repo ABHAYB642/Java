@@ -31,3 +31,6 @@
 *.out
 *.app
 *.class
+
+#Target Maven
+/Web Based Java Programming/**/target/
